@@ -1,0 +1,89 @@
+#hspMakinesi {
+  width: 480px;
+  height: 720px;
+  margin-top: 50%;
+  background-color: grey;
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 5px 3px 5px black;
+  text-shadow: 5px 3px 5px grey;
+}
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  background-color: rgb(51, 50, 50);
+  justify-content: center; /* Yatayda ortalar */
+  align-items: center; /* Dikeyde ortalar */
+  padding: 0px;
+
+  text-shadow: 5px 3px 5px grey;
+}
+.btn {
+  width: 110px;
+  height: 110px;
+  position: relative;
+  top: 3%;
+  margin: 2px;
+  border: 1px solid;
+  border-radius: 20px;
+  font-size: 22px;
+  color: beige;
+  background-color: rgb(84, 72, 72);
+  padding: 0px;
+  box-shadow: 5px 3px 5px black;
+  text-shadow: 5px 3px 5px grey;
+}
+#hspEkran {
+  width: 460px;
+  height: 110px;
+  border: 2px solid;
+  border-radius: 10px;
+  background-color: rgb(85, 89, 89);
+  margin-top: 0px;
+  margin: 2px;
+  margin-bottom: 0px;
+  box-shadow: 5px 3px 5px black;
+  text-shadow: 5px 3px 5px grey;
+  overflow: hidden;
+  padding: 5px;
+  /*bunu yazan tosun okuyana kosun*/
+}
+.btn:active {
+  color: black;
+  background-color: grey;
+  animation: btnClick ease 0.1s forwards;
+}
+#theText {
+  font-size: 35px;
+
+  margin: 0px;
+  margin-bottom: 10px;
+}
+#theBText {
+  font-size: 20px;
+
+  margin: 0px;
+  margin-bottom: 10px;
+}
+#theEqautaion {
+  font-size: 20px;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+#theConclusion {
+  font-size: 75px;
+  margin: 0px;
+  position: absolute;
+  top: 265px;
+  right: 730px;
+}
+@keyframes btnClick {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0.8);
+  }
+}
